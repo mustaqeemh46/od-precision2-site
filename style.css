@@ -1,0 +1,1403 @@
+:root {
+  --dl-layout-size-large: 144px;
+  --dl-layout-size-small: 48px;
+  --dl-layout-space-unit: 16px;
+  --dl-layout-size-medium: 96px;
+  --dl-layout-size-xlarge: 192px;
+  --dl-layout-size-xsmall: 16px;
+  --dl-color-theme-accent1: #FFFFFF;
+  --dl-color-theme-accent2: #F5D1B0;
+  --dl-layout-radius-round: 50%;
+  --dl-layout-size-xxlarge: 288px;
+  --dl-color-theme-primary1: #BF4408;
+  --dl-color-theme-primary2: #E65103;
+  --dl-layout-size-maxwidth: 1400px;
+  --dl-layout-radius-radius2: 2px;
+  --dl-layout-radius-radius4: 4px;
+  --dl-layout-radius-radius8: 8px;
+  --dl-layout-space-halfunit: 8px;
+  --dl-layout-space-sixunits: 96px;
+  --dl-layout-space-twounits: 32px;
+  --dl-color-theme-secondary1: #FFFFFF;
+  --dl-color-theme-secondary2: #FBF1EB;
+  --dl-layout-space-fiveunits: 80px;
+  --dl-layout-space-fourunits: 64px;
+  --dl-layout-space-threeunits: 48px;
+  --dl-color-apexrapid.com-alto: rgba(216, 216, 216, 1);
+  --dl-color-theme-neutral-dark: #191818;
+  --dl-layout-radius-cardradius: 8px;
+  --dl-color-apexrapid.com-black: rgba(0, 0, 0, 1);
+  --dl-color-apexrapid.com-monza: rgba(219, 0, 25, 1);
+  --dl-color-apexrapid.com-white: rgba(255, 255, 255, 1);
+  --dl-color-theme-neutral-light: #FBFAF9;
+  --dl-layout-radius-imageradius: 8px;
+  --dl-layout-radius-inputradius: 24px;
+  --dl-color-apexrapid.com-iron26: rgba(205, 209, 211, 0.25999999046325684);
+  --dl-color-apexrapid.com-mirage: rgba(28, 34, 46, 1);
+  --dl-color-apexrapid.com-silver: rgba(203, 203, 203, 1);
+  --dl-layout-radius-buttonradius: 24px;
+  --dl-color-apexrapid.com-black14: rgba(0, 0, 0, 0.14000000059604645);
+  --dl-color-apexrapid.com-codgray: rgba(18, 18, 18, 1);
+  --dl-color-apexrapid.com-emperor: rgba(81, 81, 81, 1);
+  --dl-color-apexrapid.com-firefly: rgba(13, 25, 43, 1);
+  --dl-color-apexrapid.com-spindle: rgba(199, 222, 237, 1);
+  --dl-color-apexrapid.com-tuatara: rgba(41, 41, 40, 1);
+  --dl-color-apexrapid.com-tundora: rgba(76, 76, 76, 1);
+  --dl-color-apexrapid.com-white12: rgba(255, 255, 255, 0.11999999731779099);
+  --dl-color-apexrapid.com-white13: rgba(255, 255, 255, 0.12999999523162842);
+  --dl-color-apexrapid.com-white14: rgba(255, 255, 255, 0.14000000059604645);
+  --dl-color-apexrapid.com-white80: rgba(255, 255, 255, 0.800000011920929);
+  --dl-color-apexrapid.com-white82: rgba(255, 255, 255, 0.8199999928474426);
+  --dl-color-apexrapid.com-aquahaze: rgba(234, 240, 244, 1);
+  --dl-color-apexrapid.com-dovegray: rgba(102, 102, 102, 1);
+  --dl-color-apexrapid.com-lochmara: rgba(0, 113, 197, 1);
+  --dl-color-apexrapid.com-silver80: rgba(203, 203, 203, 0.800000011920929);
+  --dl-color-apexrapid.com-trinidad: rgba(242, 92, 6, 1);
+  --dl-layout-space-oneandhalfunits: 24px;
+  --dl-color-apexrapid.com-anakiwa76: rgba(179, 223, 255, 0.7599999904632568);
+  --dl-color-apexrapid.com-codgray25: rgba(22, 22, 22, 0.25);
+  --dl-color-apexrapid.com-codgray85: rgba(22, 22, 22, 0.8500000238418579);
+  --dl-color-apexrapid.com-downriver: rgba(8, 30, 62, 1);
+  --dl-color-apexrapid.com-emperor18: rgba(79, 79, 79, 0.18000000715255737);
+  --dl-color-apexrapid.com-mineshaft: rgba(61, 61, 61, 1);
+  --dl-color-apexrapid.com-porcelain: rgba(234, 237, 239, 1);
+  --dl-color-apexrapid.com-woodsmoke: rgba(16, 16, 17, 1);
+  --dl-color-apexrapid.com-athensgray: rgba(230, 233, 237, 1);
+  --dl-color-apexrapid.com-dodgerblue: rgba(24, 127, 239, 1);
+  --dl-color-apexrapid.com-hawkesblue: rgba(226, 232, 237, 1);
+  --dl-color-apexrapid.com-heavymetal: rgba(33, 33, 30, 1);
+  --dl-color-apexrapid.com-pictonblue: rgba(60, 166, 241, 1);
+  --dl-color-apexrapid.com-curiousblue: rgba(24, 127, 224, 1);
+  --dl-color-apexrapid.com-easternblue: rgba(24, 127, 171, 1);
+  --dl-color-apexrapid.com-mineshaft15: rgba(36, 36, 36, 0.15000000596046448);
+  --dl-color-apexrapid.com-mineshaft24: rgba(36, 36, 36, 0.23999999463558197);
+  --dl-color-apexrapid.com-mineshaft50: rgba(46, 46, 46, 0.5);
+  --dl-color-apexrapid.com-shuttlegray: rgba(95, 99, 104, 1);
+  --dl-color-apexrapid.com-blacksqueeze: rgba(239, 245, 249, 1);
+  --dl-color-apexrapid.com-goldentainoi: rgba(255, 204, 78, 1);
+  --dl-color-apexrapid.com-silversand26: rgba(178, 182, 184, 0.25999999046325684);
+  --dl-color-apexrapid.com-tropicalblue: rgba(221, 227, 232, 1);
+  --dl-color-apexrapid.com-catskillwhite: rgba(239, 245, 249, 1);
+  --dl-color-apexrapid.com-curiousblue11: rgba(24, 127, 234, 0.10999999940395355);
+  --dl-color-apexrapid.com-curiousblue21: rgba(24, 127, 234, 0.20999999344348907);
+  --dl-color-apexrapid.com-curiousblue60: rgba(24, 127, 234, 0.6000000238418579);
+  --dl-color-apexrapid.com-blacksqueeze94: rgba(239, 245, 249, 0.9399999976158142);
+  --dl-color-apexrapid.com-alizarincrimson: rgba(225, 32, 38, 1);
+}
+ 
+.button {
+  color: var(--dl-color-theme-neutral-dark);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.input {
+  color: var(--dl-color-theme-neutral-dark);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.textarea {
+  color: var(--dl-color-theme-neutral-dark);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+ 
+.list-item {
+  display: list-item;
+}
+ 
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+ 
+.thq-input {
+  color: var(--dl-color-theme-neutral-dark);
+  cursor: auto;
+  outline: none;
+  padding: 0.5rem 1rem;
+  align-self: stretch;
+  text-align: center;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: var(--dl-layout-radius-inputradius);
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.thq-input:focus {
+  outline: 1px solid var(--dl-color-theme-primary1);
+}
+ 
+.thq-button-filled {
+  gap: var(--dl-layout-space-halfunit);
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  font-weight: bold;
+  padding-top: var(--dl-layout-space-halfunit);
+  white-space: nowrap;
+  border-color: var(--dl-color-theme-primary1);
+  border-width: 1px;
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  border-radius: var(--dl-layout-radius-buttonradius);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  padding-bottom: var(--dl-layout-space-halfunit);
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary1);
+}
+ 
+.thq-button-filled:hover {
+  fill: var(--dl-color-theme-secondary2);
+  color: var(--dl-color-theme-secondary2);
+  border-color: var(--dl-color-theme-primary2);
+  background-color: var(--dl-color-theme-primary2);
+}
+ 
+.thq-button-outline {
+  gap: var(--dl-layout-space-halfunit);
+  fill: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-primary1);
+  border: 1px solid;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  font-weight: bold;
+  padding-top: var(--dl-layout-space-halfunit);
+  white-space: nowrap;
+  border-color: var(--dl-color-theme-primary1);
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  border-radius: var(--dl-layout-radius-buttonradius);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  padding-bottom: var(--dl-layout-space-halfunit);
+  justify-content: center;
+}
+ 
+.thq-button-outline:hover {
+  fill: var(--dl-color-theme-secondary2);
+  color: var(--dl-color-theme-secondary2);
+  border-color: var(--dl-color-theme-primary2);
+  background-color: var(--dl-color-theme-primary2);
+}
+ 
+.thq-button-flat {
+  gap: var(--dl-layout-space-halfunit);
+  fill: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-primary1);
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  font-weight: bold;
+  padding-top: var(--dl-layout-space-halfunit);
+  white-space: nowrap;
+  border-color: transparent;
+  border-width: 1px;
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  border-radius: var(--dl-layout-radius-buttonradius);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  padding-bottom: var(--dl-layout-space-halfunit);
+  justify-content: center;
+}
+ 
+.thq-button-flat:hover {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  border-color: var(--dl-color-theme-primary2);
+  background-color: var(--dl-color-theme-primary2);
+}
+ 
+.thq-heading-1 {
+  font-size: 48px;
+  font-family: STIX Two Text;
+  font-weight: 700;
+  line-height: 1.5;
+}
+ 
+.thq-heading-2 {
+  font-size: 35px;
+  font-family: STIX Two Text;
+  font-weight: 600;
+  line-height: 1.5;
+}
+ 
+.thq-heading-3 {
+  font-size: 26px;
+  font-family: STIX Two Text;
+  font-weight: 600;
+  line-height: 1.5;
+}
+ 
+.thq-body-large {
+  font-size: 18px;
+  font-family: Noto Sans;
+  line-height: 1.5;
+}
+ 
+.thq-body-small {
+  font-size: 16px;
+  font-family: Noto Sans;
+  line-height: 1.5;
+}
+ 
+.thq-team-image-round {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+ 
+.thq-section-padding {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-layout-space-fiveunits);
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.thq-section-max-width {
+  width: 100%;
+  max-width: var(--dl-layout-size-maxwidth);
+}
+ 
+.thq-img-ratio-1-1 {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: var(--dl-layout-radius-imageradius);
+}
+ 
+.thq-img-ratio-16-9 {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  border-radius: var(--dl-layout-radius-imageradius);
+}
+ 
+.thq-img-ratio-4-3 {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+  border-radius: var(--dl-layout-radius-imageradius);
+}
+ 
+.thq-img-ratio-4-6 {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 4/6;
+  border-radius: var(--dl-layout-radius-imageradius);
+}
+ 
+.thq-img-round {
+  width: 100%;
+  border-radius: var(--dl-layout-radius-round);
+}
+ 
+.thq-flex-column {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.thq-flex-row {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+ 
+.thq-grid-6 {
+  display: grid;
+  grid-gap: var(--dl-layout-space-twounits);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+ 
+.thq-grid-5 {
+  display: grid;
+  grid-gap: var(--dl-layout-space-twounits);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+ 
+.thq-card {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  padding: var(--dl-layout-space-twounits);
+  align-items: stretch;
+  border-radius: var(--dl-layout-radius-cardradius);
+  flex-direction: column;
+}
+ 
+.thq-box-shadow {
+  box-shadow: 0px 0px 5px -2px var(--dl-color-theme-neutral-dark);
+}
+ 
+.thq-grid-3 {
+  display: grid;
+  grid-gap: var(--dl-layout-space-twounits);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+ 
+.thq-grid-4 {
+  display: grid;
+  grid-gap: var(--dl-layout-space-twounits);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ 
+.thq-grid-2 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-layout-space-twounits);
+  grid-template-columns: 1fr 1fr;
+}
+ 
+.thq-checkbox {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.thq-select {
+  cursor: pointer;
+  appearance: none;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-unit);
+  border-radius: var(--dl-layout-radius-inputradius);
+  padding-right: var(--dl-layout-space-twounits);
+  padding-bottom: var(--dl-layout-space-halfunit);
+  background-color: var(--dl-color-theme-neutral-light);
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg width%3D%2220%22 height%3D%2220%22 xmlns%3D%22http%3A//www.w3.org/2000/svg%22 viewBox%3D%220 0 20 20%22 fill%3D%22%23000%22%3E%3Cpath d%3D%22M4.293 7.293a1 1 0 011.414 0L10 11.586l4.293-4.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z%22/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+}
+ 
+.thq-divider-horizontal {
+  width: 100%;
+  height: 1px;
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+ 
+.thq-icon-small {
+  width: 24px;
+  height: 24px;
+}
+ 
+.thq-button-icon {
+  fill: var(--dl-color-theme-secondary1);
+  padding: 3px;
+  transition: 0.3s;
+  border-radius: var(--dl-layout-radius-round);
+}
+ 
+.thq-button-icon:hover {
+  fill: var(--dl-color-theme-secondary2);
+}
+ 
+.thq-icon-medium {
+  width: var(--dl-layout-size-small);
+  height: var(--dl-layout-size-small);
+}
+ 
+.thq-icon-x-small {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.thq-link {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, var(--dl-color-theme-primary1) 50%, var(--dl-color-theme-neutral-dark) 50%);
+  transition: background-position 300ms ease;
+  font-weight: 600;
+  background-clip: text;
+  background-size: 200% 100%;
+  background-position: 100%;
+  -webkit-text-fill-color: transparent;
+}
+ 
+.thq-link:hover {
+  background-position: 0 100%;
+}
+ 
+.thq-grid-auto-300 {
+  display: grid;
+  grid-gap: var(--dl-layout-space-oneandhalfunits);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+ 
+.thq-animated-group-vertical-reverse {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  animation: scroll-y 20s linear infinite;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  animation-direction: reverse;
+}
+ 
+.thq-animated-group-horizontal-reverse {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  animation: scroll-x 20s linear infinite;
+  min-width: 100%;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-around;
+  animation-direction: reverse;
+}
+ 
+.thq-animated-group-vertical {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  animation: scroll-y 20s linear infinite;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+ 
+.thq-animated-group-horizontal {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  animation: scroll-x 20s linear infinite;
+  min-width: 100%;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-around;
+}
+ 
+.thq-animated-group-container-vertical {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+ 
+.thq-animated-group-container-horizontal {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  overflow: hidden;
+}
+ 
+.thq-mask-image-vertical {
+  mask-image: linear-gradient(to bottom, transparent, black 1%, black 99%, transparent);
+}
+ 
+.thq-mask-image-horizontal {
+  mask-image: linear-gradient(to right, transparent, black 1%, black 99%, transparent);
+}
+ 
+.thq-img-scale {
+  transition: 0.3s;
+}
+ 
+.thq-img-scale:hover {
+  scale: 1.05;
+}
+ 
+.thq-animated-card-bg-1 {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  border-radius: var(--dl-layout-radius-cardradius);
+  background-color: var(--dl-color-theme-accent1);
+}
+ 
+.thq-animated-card-bg-2 {
+  transition: transform 0.3s;
+  border-radius: var(--dl-layout-radius-cardradius);
+  background-color: var(--dl-color-theme-accent2);
+}
+ 
+.thq-button-animated {
+  outline: none;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  border-width: 2px;
+}
+ 
+.thq-input::placeholder {
+  text-align: center;
+  vertical-align: middle;
+}
+ 
+.thq-animated-group-container-vertical:hover div {
+  animation-play-state: paused;
+}
+ 
+.thq-animated-group-container-horizontal:hover div {
+  animation-play-state: paused;
+}
+ 
+.thq-animated-card-bg-2:has([data-animated="true"]:hover) {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(3deg) skew(0deg, 0deg);
+}
+ 
+.thq-animated-card-bg-1:has([data-animated="true"]:hover) {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-6deg) skew(0deg, 0deg);
+}
+ 
+.thq-button-animated:before {
+  top: 0;
+  left: -20%;
+  color: var(--dl-color-theme-neutral-light);
+  width: 200%;
+  height: 101%;
+  content: "";
+  z-index: 1;
+  position: absolute;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  border-radius: var(--dl-layout-radius-buttonradius);
+  background-color: var(--dl-color-theme-neutral-dark);
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+ 
+.thq-button-animated:hover::before {
+  color: var(--dl-color-theme-neutral-light);
+  z-index: -1;
+  transform: scaleX(1);
+}
+ 
+.apexrapid\.comSemanticItem17 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: -0.20000000298023224px;
+}
+ 
+.apexrapid\.comDMSansMediumupper {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 4.300000190734863px;
+}
+ 
+.apexrapid\.comSemanticData {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: -0.14000000059604645px;
+}
+ 
+.apexrapid\.comSemanticItem3 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink {
+  font-size: 14px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansMedium {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink8 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink17 {
+  font-size: 26px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansMedium6 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: -0.15000000596046448px;
+}
+ 
+.apexrapid\.comSemanticHeading32 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0.3499999940395355px;
+}
+ 
+.apexrapid\.comSemanticLink12 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink14 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem1 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem16 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading34 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink15 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink10 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading33 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink2 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticStrong7 {
+  font-size: 43px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 2.299999952316284px;
+}
+ 
+.apexrapid\.comSemanticLink6 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink9 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansMediumupper1 {
+  font-size: 19px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticInput {
+  font-size: 14px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading22 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 2.0899999141693115px;
+}
+ 
+.apexrapid\.comSemanticStrong3 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading3 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansBold {
+  font-size: 52px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink1 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: -0.10000000149011612px;
+}
+ 
+.apexrapid\.comSemanticItem15 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem10 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem11 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading31 {
+  font-size: 26px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 900px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem4 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansSemiBold1 {
+  font-size: 43px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 1.899999976158142px;
+}
+ 
+.apexrapid\.comDMSansMedium1 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: -0.12999999523162842px;
+}
+ 
+.apexrapid\.comSemanticStrong4 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink16 {
+  font-size: 20.011762619018555px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem8 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem5 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0.36000001430511475px;
+}
+ 
+.apexrapid\.comDMSansSemiBold2 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: -0.2800000011920929px;
+}
+ 
+.apexrapid\.comSemanticStrong6 {
+  font-size: 26px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading1 {
+  font-size: 62px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 2.75px;
+}
+ 
+.apexrapid\.comSemanticItem9 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticStrong2 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink3 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink5 {
+  font-size: 16.021503448486328px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem6 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: -0.11999999731779099px;
+}
+ 
+.apexrapid\.comSemanticHeading2 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0.550000011920929px;
+}
+ 
+.apexrapid\.comSemanticStrong5 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansMedium2 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: -0.10000000149011612px;
+}
+ 
+.apexrapid\.comDMSansMedium4 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0.5400000214576721px;
+}
+ 
+.apexrapid\.comSemanticItem2 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLinkupper {
+  font-size: 16.021503448486328px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticStrongupper {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink11 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSans9ptRegular {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem {
+  font-size: 14px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink7 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading37 {
+  font-size: 38px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading36 {
+  font-size: 36px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansMedium3 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0.2199999988079071px;
+}
+ 
+.apexrapid\.comDMSansBold2 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem13 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem12 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansBold1 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem14 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.apexrapid\.comSemanticLink4 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticItem7 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading35 {
+  font-size: 35px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticHeading21 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 2px;
+}
+ 
+.apexrapid\.comSemanticStrong1 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticLink13 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticStrong {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticData1 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: -0.15000000596046448px;
+}
+ 
+.apexrapid\.comSemanticLinkunderline {
+  font-size: 14px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansSemiBold {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comSemanticInput1 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+.apexrapid\.comDMSansMedium5 {
+  font-size: 17px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: -0.15000000596046448px;
+}
+ 
+.apexrapid\.comSemanticLinkupper1 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+ 
+@media(max-width: 991px) {
+  .thq-grid-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .thq-section-padding {
+    padding: var(--dl-layout-space-threeunits);
+  }
+  .thq-flex-column {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .thq-flex-row {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .thq-grid-6 {
+    grid-gap: var(--dl-layout-space-oneandhalfunits);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .thq-grid-5 {
+    grid-gap: var(--dl-layout-space-oneandhalfunits);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .thq-card {
+    padding: var(--dl-layout-space-oneandhalfunits);
+  }
+  .thq-grid-3 {
+    grid-gap: var(--dl-layout-space-oneandhalfunits);
+    grid-template-columns: 1fr 1fr;
+  }
+  .thq-grid-4 {
+    grid-gap: var(--dl-layout-space-oneandhalfunits);
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+  }
+  .thq-grid-2 {
+    grid-gap: var(--dl-layout-space-oneandhalfunits);
+    grid-template-columns: 1fr;
+  }
+  .thq-img-scale {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .thq-section-padding {
+    padding: var(--dl-layout-space-oneandhalfunits);
+  }
+  .thq-flex-column {
+    gap: var(--dl-layout-space-unit);
+  }
+  .thq-flex-row {
+    gap: var(--dl-layout-space-unit);
+  }
+  .thq-grid-6 {
+    grid-gap: var(--dl-layout-space-unit);
+    grid-template-columns: 1fr 1fr;
+  }
+  .thq-grid-5 {
+    grid-gap: var(--dl-layout-space-unit);
+    grid-template-columns: 1fr 1fr;
+  }
+  .thq-grid-3 {
+    grid-gap: var(--dl-layout-space-unit);
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .thq-grid-4 {
+    grid-gap: var(--dl-layout-space-unit);
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  .thq-grid-2 {
+    grid-gap: var(--dl-layout-space-unit);
+  }
+  .thq-grid-auto-300 {
+    grid-template-columns: 1fr;
+  }
+}
